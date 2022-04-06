@@ -1,28 +1,28 @@
-body{
-	height: 100%;
-	max-width:auto;
-	margin:0;
-	font-family: Google Sans,Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
-	background-color:#FFFFFF;
+body {
+    height: 100%;
+    max-width: auto;
+    margin: 0;
+    font-family: "Google Sans", Helvetica, Arial, sans-serif;
+    background-color: #FFFFFF;
     font-size: 13px;
-   
+
 }
 
-#conteneur{
+#conteneur {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    
+
 }
 
-.marge{
+.marge {
 
     margin: 10px;
 }
 
-#button{
+#button {
 
-    padding: 9px 23px;   
+    padding: 9px 23px;
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.25px;
@@ -35,7 +35,7 @@ body{
     box-sizing: border-box;
 }
 
-section{
+section {
     margin-top: 150px;
     display: flex;
     flex-direction: column;
@@ -44,53 +44,54 @@ section{
 
 }
 
-.gris{
+.gris {
     margin: 0 10px;
 }
 
-#boutons_gris{
+#boutons_gris {
     display: flex;
     align-items: center;
     margin: 10px;
-    
+
 }
 
 
-#recherche{
+#recherche {
     display: flex;
     align-items: center;
     border: 1px solid grey;
     border-radius: 24px;
     width: 450px;
     height: 26px;
-    justify-content:space-between;
+    justify-content: space-between;
 
 }
 
-#recherche:hover{
+#recherche:hover {
 
     box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
- 
+
 }
 
-.barre{
+.barre {
     margin: 0 10px;
+    
 
 }
 
-input{
-   border: none;
+input {
+    border: none;
 
 }
 
-footer{
-  position: absolute;
-  bottom: 0;
-  width: 100%;
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 
 }
 
-#lastfoot{
+#lastfoot {
 
     display: flex;
     justify-content: space-around;
@@ -100,17 +101,14 @@ footer{
 
 }
 
-a{
+a {
     text-decoration: none;
     color: grey;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
-#foot1{
+#foot1 {
     display: flex;
     justify-content: center;
 }
-
-
-
